@@ -4,3 +4,8 @@
 	
 	}
 h1{color: red;}
+body {
+    /* background-image:linear-gradient(to right bottom, skyblue, violet, gold, orange); */
+background-image: radial-gradient(ellipse at top center, skyblue, violet, rgb(0, 255, 149), orange);
+
+}
