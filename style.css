@@ -7,7 +7,9 @@ h1{color: red;}
 body {
     /* background-image:linear-gradient(to right bottom, skyblue, violet, gold, orange); */
 background-image: radial-gradient(ellipse at top center, skyblue, violet, rgb(0, 255, 149),  rgb(21, 0, 255));
-.box-style {
+
+}
+box-style {
     border: 7px solid rgb(0, 0, 0);
     width: 800px;
     height: 300px;
@@ -27,5 +29,4 @@ background-image: radial-gradient(ellipse at top center, skyblue, violet, rgb(0,
 }
 .dogs-photo {
     width: 100%;
-}
 }
