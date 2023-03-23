@@ -7,5 +7,25 @@ h1{color: red;}
 body {
     /* background-image:linear-gradient(to right bottom, skyblue, violet, gold, orange); */
 background-image: radial-gradient(ellipse at top center, skyblue, violet, rgb(0, 255, 149),  rgb(21, 0, 255));
-
+.box-style {
+    border: 7px solid rgb(0, 0, 0);
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: radial-gradient(circle at center, black, blueviolet, blue, violet, skyblue, white);
+    padding-top: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.dogs-card {
+    border: 10px double rgb(3, 231, 3);
+    width: 300px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 8px 8px 9px rgb(0, 0, 0);
+}
+.dogs-photo {
+    width: 100%;
+}
 }
