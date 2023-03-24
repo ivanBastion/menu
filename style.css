@@ -1,7 +1,7 @@
 .my_class_li {
 	font-size:30px;
 	color: yellow; 
-	
+	text-indent: 25px;
 	}
 h1{color: red;}
 body {
@@ -9,7 +9,14 @@ body {
 background-image: radial-gradient(ellipse at top center, skyblue, violet, rgb(0, 255, 149),  rgb(21, 0, 255));
 
 }
-box-style {
+.menu-text-style{
+	font-size:25px;
+	color: white;
+	text-indent: 25px;
+}
+
+
+menu-style {
     border: 7px solid rgb(0, 0, 0);
     width: 800px;
     height: 300px;
@@ -20,13 +27,14 @@ box-style {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.dogs-card {
+.menu-card {
     border: 10px double rgb(3, 231, 3);
     width: 300px;
     color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 8px 8px 9px rgb(0, 0, 0);
 }
-.dogs-photo {
-    width: 100%;
+
+.menu-photo {
+    width: 600px;
 }
