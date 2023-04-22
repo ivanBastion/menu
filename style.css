@@ -38,7 +38,7 @@ menu-style {
 .menu-photo {
     width: 600px;
 }
-.dogs-card {
+.menu-card {
   border: 10px double rgb(3, 231, 3);
   width: 300px;
   color: rgb(255, 255, 255);
@@ -47,11 +47,11 @@ menu-style {
   position: relative;
 }
 
-.dogs-photo {
+.menu-photo {
   width: 100%;
 }
 
-.dogs-breeds {
+.menu-breeds {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -84,6 +84,6 @@ menu-style {
   justify-content: center;
   opacity: 0;
 }
-.dogs-card:hover .overlay {
+.menu-card:hover .overlay {
   opacity: 1;
 }
