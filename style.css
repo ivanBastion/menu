@@ -1,47 +1,64 @@
 .my_class_li {
-	font-size:30px;
-	color: yellow; 
-	text-indent: 25px;
-	}
-h1{color: red;}
+    justify-content: center;
+    font-size: 30px;
+    color: yellow;
+    text-indent: 25px;
+}
+
+h1 {
+ justify-content: space-between;
+    color: red;
+    
+}
+
 body {
 
-background-image: radial-gradient(ellipse at top center, skyblue, violet, rgb(0, 255, 149),  rgb(21, 0, 255));
+    background-image: radial-gradient(ellipse at top center, skyblue, violet, rgb(0, 255, 149), rgb(21, 0, 255));
 
 }
-.menu-text-style{
-	font-size:25px;
-	color: rgb(255, 255, 255);
-	text-indent: 25px;
+
+.menu-text-style {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.433);
+    text-indent: 25px;
 }
 
+.main-photo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
-menu-style {
+.box-style {
     border: 7px solid rgb(0, 0, 0);
     width: 800px;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    background-image: radial-gradient(circle at center, black, blueviolet, blue, violet, skyblue, white);
-    padding-top: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
+    background-image: radial-gradient(
+      circle at center,
+      black,
+      blueviolet,
+      blue,
+      violet,
+      skyblue,
+      white
+ ) }
+
 
 .pages-list {
     display: flex;
     justify-content: space-around;
     list-style: none ;
-  
-  }
-  .pages-link {
+}
+.pages-item{
     font-family: 'Kaushan Script';
-    text-decoration: none ;
+    text-decoration: none;
     text-shadow: 3px 1px 3px black;
     font-size: 36px;
-  }
-  
-  .overlay {
+}
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -52,8 +69,53 @@ menu-style {
     align-items: center;
     justify-content: center;
     opacity: 0;
+}
+
+.main-text {
+    font-size: 42px;
+    color: aqua;
+    text-indent: 25px;
   }
-  .dogs-card:hover .overlay {
-    opacity: 1;
-  }
-  
+  .my_class_li_food {
+	font-size:30px;
+	color: yellow; 
+	text-indent: 25px;
+	}
+h1{color: red;}
+body-food {
+
+background-image: radial-gradient(ellipse at top center, skyblue, violet, rgb(0, 255, 149),  rgb(21, 0, 255));
+}
+
+
+/* CSS for menu food*/
+
+.menu_text_style_food{
+	font-size:25px;
+	color: white;
+	text-indent: 25px;
+}
+
+
+menu_style_food {
+    border: 7px solid rgb(0, 0, 0);
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: radial-gradient(circle at center, black, blueviolet, blue, violet, skyblue, white);
+    padding-top: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.menu_card_food {
+    border: 10px double rgb(3, 231, 3);
+    width: 300px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 8px 8px 9px rgb(0, 0, 0);
+}
+
+.menu_photo {
+    width: 600px;
+}
