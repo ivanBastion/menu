@@ -114,8 +114,15 @@ menu_style_food {
     color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 8px 8px 9px rgb(0, 0, 0);
+    flex-direction: column;
 }
 
 .menu_photo {
-    width: 600px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+.menu-list{
+    display: flex;
+  
 }
